@@ -1,13 +1,14 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import indexComponentVue from './components/optionApi.vue'
-import TheWelcome from './components/TheWelcome.vue'
-import indexComponent from './components/optionApi.vue'
-import componentApi from './components/componentApi.vue'
-import formCheck from './components/formCheck.vue'
-import computed from './components/computed.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+// import indexComponentVue from './components/optionApi.vue'
+// import TheWelcome from './components/TheWelcome.vue'
+// import indexComponent from './components/optionApi.vue'
+// import componentApi from './components/componentApi.vue'
+// import formCheck from './components/formCheck.vue'
+// import computed from './components/computed.vue'
 </script>
 <template>
+<router-view></router-view>
   <header>
     <!-- <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" /> -->
 

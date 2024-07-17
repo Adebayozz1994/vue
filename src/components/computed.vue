@@ -12,6 +12,16 @@
             </div>
         </div>
     </div>
+
+    <!-- all available items -->
+    <div v-for="item in availableItems" :key="item.id">
+        <p class="lead fw-bold">availableItems</p>
+        <div class="card p-2 w-50 mx-auto">
+            <p>{{item.name}}</p>
+            <p>Quantity-{{item.Quantity}}</p>
+            <p>{{item.Quantity==0 ? 'Out of stock' : 'Available' }}</p>
+        </div>
+    </div>
 </template>
 
 
@@ -26,6 +36,10 @@ const items = ref([
  {id: 5, name: 'Socks', Quantity: 50, available: true},
 ]);
 
+const availableItems = computed(() =>{
+    return items.value.filter((item )=> item.available);
+})
+// they act like variable and modify the value of the variable
 // const availableItems = computed(() =>{
 //     return items.filter(item => item.available)
 // })
@@ -33,7 +47,12 @@ const items = ref([
 const orderNow = (itemId) =>{
     // console.log(itemId);
 const clickedItem = items.value.find((item) => item.id == itemId)
-    clickedItem.Quantity = clickedItem.Quantity - 1;
+    // clickedItem.Quantity = clickedItem.Quantity - 1;
+    if(clickedItem.Quantity !==0){
+        clickedItem.Quantity = clickedItem.Quantity - 1;
+    }else{
+        clickedItem.available = false;
+    }
 
 // if(clickedItem.Quantity > 0){
 //     clickedItem.Quantity = clickedItem.Quantity - 1;

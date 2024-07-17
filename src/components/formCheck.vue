@@ -52,6 +52,7 @@ export default {
             };
             // localStorage.setItem('user', JSON.stringify(user));
             // console.log('User data saved to local storage:', user);
+            this.$router.push('/dashboard');
             console.log(user);
         }
     }

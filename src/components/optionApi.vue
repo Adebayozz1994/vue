@@ -16,7 +16,6 @@
     <button @click="myFunction">Toggle name</button>
     <p>{{username}}</p>
   </div>
-  <h1>adebayozz</h1>
 </template>
 
 

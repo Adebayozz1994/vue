@@ -1,17 +1,18 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
-import indexComponentVue from './components/indexComponent.vue'
+import indexComponentVue from './components/optionApi.vue'
 import TheWelcome from './components/TheWelcome.vue'
-import indexComponent from './components/indexComponent.vue'
-
-
+import indexComponent from './components/optionApi.vue'
+import componentApi from './components/componentApi.vue'
+import formCheck from './components/formCheck.vue'
+import computed from './components/computed.vue'
 </script>
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+    <!-- <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" /> -->
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <!-- <HelloWorld msg="You did it!" /> -->
     </div>
     <div>
        <indexComponentVue />
@@ -19,7 +20,10 @@ import indexComponent from './components/indexComponent.vue'
   </header>
 
   <main>
-    <TheWelcome />
+    <!-- <TheWelcome /> --> 
+     <componentApi />
+     <formCheck />
+     <computed />
   </main>
 </template>
 

@@ -23,7 +23,7 @@
                 </div>
                 <div class="form-group form-check">
                     <input type="checkbox" class="form-check-input" id="terms" v-model="terms" value="terms">
-                    <label class="form-check-label" for="terms">I agree to the <a href="#">terms and condition</a></label>
+                    <label class="form-check-label" for="terms">I agree to the <a class="text-decoration-none" href="#">terms and condition</a></label>
                 </div>
                 <button class="btn btn-primary btn-block" :disabled="!terms">Sign up</button>
             </form>

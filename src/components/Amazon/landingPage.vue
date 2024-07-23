@@ -60,7 +60,7 @@
       <button type="button" class="close" aria-label="Close" @click="toggleSidebar">
         <span aria-hidden="true">&times;</span>
       </button>
-      <div class="sidebar-heading bg-light">Digital content & devices</div>
+      <div class="sidebar-heading bg-light pt-3"><h6 class="text-bold">Digital content & devices</h6></div>
       <div class="list-group list-group-flush">
         <a href="#" class="list-group-item list-group-item-action bg-light">Amazon music</a>
         <a href="#" class="list-group-item list-group-item-action bg-light">Kindle E-readers & Books</a>
@@ -112,6 +112,97 @@
 <!-- cards -->
  
            <div class="container my-4">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" alt="Deals in PCs">
+          <div class="card-body">
+            <h5 class="card-title">Deals in PCs</h5>
+            <a href="#" class="btn btn-link">Shop now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Refresh your space</h5>
+            <div class="row">
+              <div class="col-6">
+                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Dining">
+                <p>Dining</p>
+              </div>
+              <div class="col-6">
+                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Home">
+                <p>Home</p>
+              </div>
+              <div class="col-6">
+                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Kitchen">
+                <p>Kitchen</p>
+              </div>
+              <div class="col-6">
+                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Health and Beauty">
+                <p>Health and Beauty</p>
+              </div>
+            </div>
+            <a href="#" class="btn btn-link">See more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Gaming accessories</h5>
+            <div class="row">
+              <div class="col-6">
+                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Headsets">
+                <p>Headsets</p>
+              </div>
+              <div class="col-6">
+                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Keyboards">
+                <p>Keyboards</p>
+              </div>
+              <div class="col-6">
+                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Computer mice">
+                <p>Computer mice</p>
+              </div>
+              <div class="col-6">
+                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Chairs">
+                <p>Chairs</p>
+              </div>
+            </div>
+            <a href="#" class="btn btn-link">See more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Shop deals in Fashion</h5>
+            <div class="row">
+              <div class="col-6">
+                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Jeans under $50">
+                <p>Jeans under $50</p>
+              </div>
+              <div class="col-6">
+                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Tops under $25">
+                <p>Tops under $25</p>
+              </div>
+              <div class="col-6">
+                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Dresses under $30">
+                <p>Dresses under $30</p>
+              </div>
+              <div class="col-6">
+                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Shoes under $50">
+                <p>Shoes under $50</p>
+              </div>
+            </div>
+            <a href="#" class="btn btn-link">See all deals</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+             <div class="container my-4">
     <div class="row">
       <div class="col-md-3">
         <div class="card">
@@ -314,6 +405,7 @@
   </footer>
 
 
+
 </template>
 
 <script>
@@ -349,28 +441,28 @@ export default {
 #sidebar {
   background-color: #F8F9FA;
   width: 250px;
-  height: 100vh;
+  height: 75vh;
   position: fixed;
-  top: 112px; /* Adjusted to match the height of both navbars */
-  left: -250px; /* Initially hidden */
+  top: 112px; 
+  left: -250px; 
   overflow-y: auto;
-  transition: left 0.3s ease; /* Animation for sliding */
-  z-index: 1000; /* Ensure sidebar is on top */
+  transition: left 0.5s ease; 
+  z-index: 1000; 
 }
 #sidebar.open {
-  left: 0; /* Show sidebar when open */
+  left: 0;
 }
 #page-content-wrapper {
-  margin-left: 0; /* No margin to keep content in place */
+  margin-left: 0; 
   width: 100%;
-  padding-top: 72px; /* Additional padding for content */
+  padding-top: 72px; 
 }
 .close {
   position: absolute;
   top: 10px;
   right: 10px;
   background: none;
-  border: none;
+  border: 2px solid rgb(123, 115, 115);
   font-size: 1.5rem;
 }
 .carousel-inner img {

@@ -95,16 +95,107 @@
         <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="3000">
-              <img src="https://media.istockphoto.com/id/1383962772/photo/nigerian-food.jpg?s=612x612&w=0&k=20&c=u-_1qwHBoY9Yh3alnsRbix6hxgl3_TXhT9lpEvlhH10=" class="d-block w-100 img-fluid" alt="First slide">
+              <img src="https://m.media-amazon.com/images/I/61lwJy4B8PL._SX3000_.jpg" class="d-block w-100 img-fluid" alt="First slide">
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-              <img src="https://mamaputafrikanarestaurant.com/wp-content/uploads/2024/01/Untitled-design-4.png" class="d-block w-100 img-fluid" alt="Second slide">
+              <img src="https://m.media-amazon.com/images/I/71Ie3JXGfVL._SX3000_.jpg" class="d-block w-100 img-fluid" alt="Second slide">
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-              <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="d-block w-100 img-fluid" alt="Third slide">
+              <img src="https://m.media-amazon.com/images/I/61CiqVTRBEL._SX3000_.jpg" class="d-block w-100 img-fluid" alt="Third slide">
             </div>
           </div>
         </div>
+                   <div class="container my-4" id="container-f">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_SmartWatch_2X._SY608_CB639922111_.jpg" alt="Deals in PCs">
+          <div class="card-body">
+            <h5 class="card-title">Shop activity trackers and smartwatches</h5>
+            <a href="#" class="btn btn-link">Shop now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Warm & welcoming decor</h5>
+            <div class="row">
+              <div class="col-6">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/img22/Events/Fall23/FALL23_Oct_Wreaths_Decor_QuadCard_D_01_186x116._SY116_CB596234042_.jpg" class="img-fluid" alt="Dining">
+                <p>Wreaths & garlands</p>
+              </div>
+              <div class="col-6">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/img22/Events/Fall23/FALL23_HP_Oct_Decor_QuadCard_D_03_372x232._SY232_CB596234042_.jpg" class="img-fluid" alt="Home">
+                <p>Outdoor Decor</p>
+              </div>
+              <div class="col-6">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/img22/Events/Fall23/FALL23_Oct_Pillows_Decor_QuadCard_D_02_372x232._SY232_CB596234042_.jpg" class="img-fluid" alt="Kitchen">
+                <p>Pillows & throws</p>
+              </div>
+              <div class="col-6">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/img22/Events/Fall23/FALL23_HP_Oct_Decor_QuadCard_D_04_372x232._SY232_CB596234042_.jpg" class="img-fluid" alt="Health and Beauty">
+                <p>Wall art & mirrors</p>
+              </div>
+            </div>
+            <a href="#" class="btn btn-link">Shop more fall finds</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Gaming merchandise</h5>
+            <div class="row">
+              <div class="col-6">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Apparel_2x._SY232_CB667159060_.jpg" class="img-fluid" alt="Headsets">
+                <p>Apparel</p>
+              </div>
+              <div class="col-6">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Hat_2x._SY232_CB667159060_.jpg" class="img-fluid" alt="Keyboards">
+                <p>Hats</p>
+              </div>
+              <div class="col-6">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Figure_2x._SY232_CB667159060_.jpg" class="img-fluid" alt="Computer mice">
+                <p>Action figures</p>
+              </div>
+              <div class="col-6">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Mug_2x._SY232_CB667159063_.jpg" class="img-fluid" alt="Chairs">
+                <p>Mugs</p>
+              </div>
+            </div>
+            <a href="#" class="btn btn-link">See more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Look your best this season</h5>
+            <div class="row">
+              <div class="col-6">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_2x_For_her._SY232_CB558654384_.jpg" class="img-fluid" alt="Jeans under $50">
+                <p>For Her</p>
+              </div>
+              <div class="col-6">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_2x_For_him._SY232_CB558654384_.jpg" class="img-fluid" alt="Tops under $25">
+                <p>For Him</p>
+              </div>
+              <div class="col-6">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_2x_For_teens._SY232_CB558654384_.jpg" class="img-fluid" alt="Dresses under $30">
+                <p>For teens</p>
+              </div>
+              <div class="col-6">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_2x_For_kids._SY232_CB558654384_.jpg" class="img-fluid" alt="Shoes under $50">
+                <p>For Kids</p>
+              </div>
+            </div>
+            <a href="#" class="btn btn-link">See all deals</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
       </div>
     </div>
   </div>
@@ -115,9 +206,9 @@
     <div class="row">
       <div class="col-md-3">
         <div class="card">
-          <img class="card-img-top" src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" alt="Deals in PCs">
+          <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_SmartWatch_2X._SY608_CB639922111_.jpg" alt="Deals in PCs">
           <div class="card-body">
-            <h5 class="card-title">Deals in PCs</h5>
+            <h5 class="card-title">Shop activity trackers and smartwatches</h5>
             <a href="#" class="btn btn-link">Shop now</a>
           </div>
         </div>
@@ -125,23 +216,49 @@
       <div class="col-md-3">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Refresh your space</h5>
+            <h5 class="card-title">Warm & welcoming decor</h5>
             <div class="row">
               <div class="col-6">
-                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Dining">
-                <p>Dining</p>
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/img22/Events/Fall23/FALL23_Oct_Wreaths_Decor_QuadCard_D_01_186x116._SY116_CB596234042_.jpg" class="img-fluid" alt="Dining">
+                <p>Wreaths & garlands</p>
               </div>
               <div class="col-6">
-                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Home">
-                <p>Home</p>
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/img22/Events/Fall23/FALL23_HP_Oct_Decor_QuadCard_D_03_372x232._SY232_CB596234042_.jpg" class="img-fluid" alt="Home">
+                <p>Outdoor Decor</p>
               </div>
               <div class="col-6">
-                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Kitchen">
-                <p>Kitchen</p>
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/img22/Events/Fall23/FALL23_Oct_Pillows_Decor_QuadCard_D_02_372x232._SY232_CB596234042_.jpg" class="img-fluid" alt="Kitchen">
+                <p>Pillows & throws</p>
               </div>
               <div class="col-6">
-                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Health and Beauty">
-                <p>Health and Beauty</p>
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/img22/Events/Fall23/FALL23_HP_Oct_Decor_QuadCard_D_04_372x232._SY232_CB596234042_.jpg" class="img-fluid" alt="Health and Beauty">
+                <p>Wall art & mirrors</p>
+              </div>
+            </div>
+            <a href="#" class="btn btn-link">Shop more fall finds</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Gaming merchandise</h5>
+            <div class="row">
+              <div class="col-6">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Apparel_2x._SY232_CB667159060_.jpg" class="img-fluid" alt="Headsets">
+                <p>Apparel</p>
+              </div>
+              <div class="col-6">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Hat_2x._SY232_CB667159060_.jpg" class="img-fluid" alt="Keyboards">
+                <p>Hats</p>
+              </div>
+              <div class="col-6">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Figure_2x._SY232_CB667159060_.jpg" class="img-fluid" alt="Computer mice">
+                <p>Action figures</p>
+              </div>
+              <div class="col-6">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Mug_2x._SY232_CB667159063_.jpg" class="img-fluid" alt="Chairs">
+                <p>Mugs</p>
               </div>
             </div>
             <a href="#" class="btn btn-link">See more</a>
@@ -151,49 +268,23 @@
       <div class="col-md-3">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Gaming accessories</h5>
+            <h5 class="card-title">Look your best this season</h5>
             <div class="row">
               <div class="col-6">
-                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Headsets">
-                <p>Headsets</p>
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_2x_For_her._SY232_CB558654384_.jpg" class="img-fluid" alt="Jeans under $50">
+                <p>For Her</p>
               </div>
               <div class="col-6">
-                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Keyboards">
-                <p>Keyboards</p>
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_2x_For_him._SY232_CB558654384_.jpg" class="img-fluid" alt="Tops under $25">
+                <p>For Him</p>
               </div>
               <div class="col-6">
-                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Computer mice">
-                <p>Computer mice</p>
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_2x_For_teens._SY232_CB558654384_.jpg" class="img-fluid" alt="Dresses under $30">
+                <p>For teens</p>
               </div>
               <div class="col-6">
-                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Chairs">
-                <p>Chairs</p>
-              </div>
-            </div>
-            <a href="#" class="btn btn-link">See more</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Shop deals in Fashion</h5>
-            <div class="row">
-              <div class="col-6">
-                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Jeans under $50">
-                <p>Jeans under $50</p>
-              </div>
-              <div class="col-6">
-                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Tops under $25">
-                <p>Tops under $25</p>
-              </div>
-              <div class="col-6">
-                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Dresses under $30">
-                <p>Dresses under $30</p>
-              </div>
-              <div class="col-6">
-                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Shoes under $50">
-                <p>Shoes under $50</p>
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_2x_For_kids._SY232_CB558654384_.jpg" class="img-fluid" alt="Shoes under $50">
+                <p>For Kids</p>
               </div>
             </div>
             <a href="#" class="btn btn-link">See all deals</a>
@@ -206,7 +297,7 @@
     <div class="row">
       <div class="col-md-3">
         <div class="card">
-          <img class="card-img-top" src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" alt="Deals in PCs">
+          <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_2x_v1._SY608_CB573698005_.jpg" alt="Deals in PCs">
           <div class="card-body">
             <h5 class="card-title">Deals in PCs</h5>
             <a href="#" class="btn btn-link">Shop now</a>
@@ -219,19 +310,19 @@
             <h5 class="card-title">Refresh your space</h5>
             <div class="row">
               <div class="col-6">
-                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Dining">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_372x232_LP-HP_B08MYX5Q2W_01.23._SY232_CB619238939_.jpg" class="img-fluid" alt="Dining">
                 <p>Dining</p>
               </div>
               <div class="col-6">
-                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Home">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_372x232_home_B08RCCP3HV_01.23._SY232_CB619238939_.jpg" class="img-fluid" alt="Home">
                 <p>Home</p>
               </div>
               <div class="col-6">
-                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Kitchen">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_372x232_kitchen_B0126LMDFK_01.23._SY232_CB619238939_.jpg" class="img-fluid" alt="Kitchen">
                 <p>Kitchen</p>
               </div>
               <div class="col-6">
-                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Health and Beauty">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_372x232_health-beauty_B07662GN57_01.23._SY232_CB619238939_.jpg" class="img-fluid" alt="Health and Beauty">
                 <p>Health and Beauty</p>
               </div>
             </div>
@@ -245,19 +336,19 @@
             <h5 class="card-title">Gaming accessories</h5>
             <div class="row">
               <div class="col-6">
-                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Headsets">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Headset_2x._SY232_CB667159060_.jpg" class="img-fluid" alt="Headsets">
                 <p>Headsets</p>
               </div>
               <div class="col-6">
-                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Keyboards">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Keyboard_2x._SY232_CB667159063_.jpg" class="img-fluid" alt="Keyboards">
                 <p>Keyboards</p>
               </div>
               <div class="col-6">
-                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Computer mice">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Mouse_2x._SY232_CB667159063_.jpg" class="img-fluid" alt="Computer mice">
                 <p>Computer mice</p>
               </div>
               <div class="col-6">
-                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Chairs">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Chair_2x._SY232_CB667159060_.jpg" class="img-fluid" alt="Chairs">
                 <p>Chairs</p>
               </div>
             </div>
@@ -271,19 +362,19 @@
             <h5 class="card-title">Shop deals in Fashion</h5>
             <div class="row">
               <div class="col-6">
-                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Jeans under $50">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_BOTTOMS_2x._SY232_CB624172947_.jpg" class="img-fluid" alt="Jeans under $50">
                 <p>Jeans under $50</p>
               </div>
               <div class="col-6">
-                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Tops under $25">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_TOPS_2x._SY232_CB623353881_.jpg" class="img-fluid" alt="Tops under $25">
                 <p>Tops under $25</p>
               </div>
               <div class="col-6">
-                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Dresses under $30">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_DRESSES_2x._SY232_CB623353881_.jpg" class="img-fluid" alt="Dresses under $30">
                 <p>Dresses under $30</p>
               </div>
               <div class="col-6">
-                <img src="https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/05/20170423_164717_wm.jpg?resize=1024%2C972&ssl=1" class="img-fluid" alt="Shoes under $50">
+                <img src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_SHOES_2x._SY232_CB624172947_.jpg" class="img-fluid" alt="Shoes under $50">
                 <p>Shoes under $50</p>
               </div>
             </div>
@@ -425,6 +516,11 @@ export default {
 </script>
 
 <style scoped>
+#container-f{
+position: absolute;
+bottom: -70px;
+z-index: 1;
+}
 .navbar-custom {
   background-color: #0c0c0c;
 }
@@ -456,6 +552,7 @@ export default {
   margin-left: 0; 
   width: 100%;
   padding-top: 72px; 
+  background-color: red;
 }
 .close {
   position: absolute;
@@ -467,11 +564,11 @@ export default {
 }
 .carousel-inner img {
   width: 100%;
-  height: 75vh; /* Ensure images cover the full height of the viewport */
-  object-fit: cover; /* Cover the entire carousel area */
+  height: 75vh; 
+  object-fit: cover; 
 }
 .carousel-item {
-  min-height: 100vh; /* Ensure carousel items cover the full height of the viewport */
+  min-height: 100vh; 
 }
 
 body {
@@ -506,6 +603,10 @@ body {
   height: auto;
 }
 @media (max-width: 767px) {
+  #container-f{
+display: none;
+}
+
   .navbar-custom .navbar-nav .nav-link {
     font-size: 14px;
   }

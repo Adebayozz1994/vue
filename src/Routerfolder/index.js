@@ -5,10 +5,12 @@ import dashBoard from "../components/dashBoard.vue";
 import formCheck from "../components/formCheck.vue";
 import productComponent from "../components/productComponent.vue";
 import landingPage from "../components/Amazon/landingPage.vue";
+import carousel from "../components/Amazon/imageCarousel.vue";
 
 const routes = [
         // Routes names, navigation guards, lifecycle use cases
     {path: "/amazon", component: landingPage},
+    {path: "/carousel", component: carousel},
     
     {path: "/", component: formCheck},
     // {path: "/home", component: HelloWorld},

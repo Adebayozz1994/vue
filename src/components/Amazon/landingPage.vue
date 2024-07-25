@@ -1,4 +1,5 @@
 <template>
+<div class="bg">
   <div>
     <!-- Top Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
@@ -200,6 +201,22 @@
     </div>
   </div>
 
+ <!-- Image-Scroll -->
+   <div class="scroll-container">
+    <div class="scroll-content">
+      <img class="scroll-img" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_2x_v3._SY608_CB573698005_.jpg" alt="">
+      <img class="scroll-img" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_SmartWatch_2X._SY608_CB639922111_.jpg" alt="">
+      <img class="scroll-img" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_2x_v6._SY608_CB573698005_.jpg" alt="">
+      <img class="scroll-img" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_2x_laptop._SY232_CB558654384_.jpg" alt="">
+      <img class="scroll-img" src="https://m.media-amazon.com/images/I/51Zo7mGSCuL._AC_SY400_.jpg" alt="">
+      <!-- Duplicate images for seamless looping -->
+      <img class="scroll-img" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_2x_v3._SY608_CB573698005_.jpg" alt="">
+      <img class="scroll-img" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_SmartWatch_2X._SY608_CB639922111_.jpg" alt="">
+      <img class="scroll-img" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_2x_v6._SY608_CB573698005_.jpg" alt="">
+      <img class="scroll-img" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_2x_laptop._SY232_CB558654384_.jpg" alt="">
+      <img class="scroll-img" src="https://m.media-amazon.com/images/I/51Zo7mGSCuL._AC_SY400_.jpg" alt="">
+    </div>
+  </div>
 <!-- cards -->
  
            <div class="container my-4">
@@ -385,7 +402,24 @@
     </div>
   </div>
 
+<!-- scroll_view -->
 
+  <div class="scroll-container">
+    <div class="scroll-content">
+      <img class="scroll-img" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_2x_v3._SY608_CB573698005_.jpg" alt="">
+      <img class="scroll-img" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_SmartWatch_2X._SY608_CB639922111_.jpg" alt="">
+      <img class="scroll-img" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_2x_v6._SY608_CB573698005_.jpg" alt="">
+      <img class="scroll-img" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_2x_laptop._SY232_CB558654384_.jpg" alt="">
+      <img class="scroll-img" src="https://m.media-amazon.com/images/I/51Zo7mGSCuL._AC_SY400_.jpg" alt="">
+      <!-- Duplicate images for seamless looping -->
+      <img class="scroll-img" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_2x_v3._SY608_CB573698005_.jpg" alt="">
+      <img class="scroll-img" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_SmartWatch_2X._SY608_CB639922111_.jpg" alt="">
+      <img class="scroll-img" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_2x_v6._SY608_CB573698005_.jpg" alt="">
+      <img class="scroll-img" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_2x_laptop._SY232_CB558654384_.jpg" alt="">
+      <img class="scroll-img" src="https://m.media-amazon.com/images/I/51Zo7mGSCuL._AC_SY400_.jpg" alt="">
+    </div>
+  </div>
+  
   <!-- //footer -->
   <footer class="footer">
     <div class="container">
@@ -494,8 +528,7 @@
       </div>
     </div>
   </footer>
-
-
+</div>
 
 </template>
 
@@ -516,6 +549,10 @@ export default {
 </script>
 
 <style scoped>
+
+.bg{
+  background-color:azure
+}
 #container-f{
 position: absolute;
 bottom: -70px;
@@ -552,7 +589,6 @@ z-index: 1;
   margin-left: 0; 
   width: 100%;
   padding-top: 72px; 
-  background-color: red;
 }
 .close {
   position: absolute;
@@ -591,6 +627,7 @@ body {
 }
 .card {
   border: none;
+  background-color: #e8ebef;
 }
 .card-title {
   font-weight: bold;
@@ -602,6 +639,44 @@ body {
   max-width: 100%;
   height: auto;
 }
+.scroll-container {
+  overflow: hidden;
+  width: 100vw;
+  white-space: nowrap;
+}
+
+.scroll-content {
+  display: inline-flex;
+  animation: scroll 20s linear infinite;
+}
+
+.scroll-img {
+  width: 100vw;
+  height: auto;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  .scroll-img {
+    width: 50vw; /* Half viewport width */
+  }
+}
+
+@media (min-width: 1024px) {
+  .scroll-img {
+    width: 25vw; /* Quarter viewport width */
+  }
+}
+
 @media (max-width: 767px) {
   #container-f{
 display: none;

@@ -2,6 +2,7 @@
 <div class="bg">
   <div>
     <!-- Top Navigation Bar -->
+    <main><a href="#scroll-button"></a></main>
     <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
       <a class="navbar-brand" href="#">
         <img class="amazon-logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1IRNXk04_6QwSy9uFhAAG6RzqXqNnzyQf0g&s" width="100" height="30" alt="Amazon">
@@ -106,7 +107,7 @@
             </div>
           </div>
         </div>
-                   <div class="container my-4" id="container-f">
+  <div class="container my-4 ml-5" id="container-f">
     <div class="row">
       <div class="col-md-3">
         <div class="card">
@@ -124,19 +125,19 @@
             <div class="row">
               <div class="col-6">
                 <img src="https://images-na.ssl-images-amazon.com/images/G/01/img22/Events/Fall23/FALL23_Oct_Wreaths_Decor_QuadCard_D_01_186x116._SY116_CB596234042_.jpg" class="img-fluid" alt="Dining">
-                <p>Wreaths & garlands</p>
+                <small><p>Wreaths & garlands</p></small>
               </div>
               <div class="col-6">
                 <img src="https://images-na.ssl-images-amazon.com/images/G/01/img22/Events/Fall23/FALL23_HP_Oct_Decor_QuadCard_D_03_372x232._SY232_CB596234042_.jpg" class="img-fluid" alt="Home">
-                <p>Outdoor Decor</p>
+                <small><p>Outdoor Decor</p></small>
               </div>
               <div class="col-6">
                 <img src="https://images-na.ssl-images-amazon.com/images/G/01/img22/Events/Fall23/FALL23_Oct_Pillows_Decor_QuadCard_D_02_372x232._SY232_CB596234042_.jpg" class="img-fluid" alt="Kitchen">
-                <p>Pillows & throws</p>
+                <small><p>Pillows & throws</p></small>
               </div>
               <div class="col-6">
                 <img src="https://images-na.ssl-images-amazon.com/images/G/01/img22/Events/Fall23/FALL23_HP_Oct_Decor_QuadCard_D_04_372x232._SY232_CB596234042_.jpg" class="img-fluid" alt="Health and Beauty">
-                <p>Wall art & mirrors</p>
+                <small><p>Wall art & mirrors</p></small>
               </div>
             </div>
             <a href="#" class="btn btn-link">Shop more fall finds</a>
@@ -406,20 +407,22 @@
 
   <div class="scroll-container">
     <div class="scroll-content">
-      <img class="scroll-img" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_2x_v3._SY608_CB573698005_.jpg" alt="">
-      <img class="scroll-img" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_SmartWatch_2X._SY608_CB639922111_.jpg" alt="">
-      <img class="scroll-img" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_2x_v6._SY608_CB573698005_.jpg" alt="">
-      <img class="scroll-img" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_2x_laptop._SY232_CB558654384_.jpg" alt="">
-      <img class="scroll-img" src="https://m.media-amazon.com/images/I/51Zo7mGSCuL._AC_SY400_.jpg" alt="">
+      <img class="scroll-img" src="https://m.media-amazon.com/images/I/61s3oyEy-0L._AC_SY400_.jpg" alt="">
+      <img class="scroll-img" src="https://m.media-amazon.com/images/I/61UFMf2FffL._AC_SY400_.jpg" alt="">
+      <img class="scroll-img" src="https://m.media-amazon.com/images/I/814WEkpf3-L._AC_SY400_.jpg" alt="">
+      <img class="scroll-img" src="https://m.media-amazon.com/images/I/810H7ed9agL._AC_SY400_.jpg" alt="">
+      <img class="scroll-img" src="https://m.media-amazon.com/images/I/81tiCD9VomL._AC_SY400_.jpg" alt="">
       <!-- Duplicate images for seamless looping -->
-      <img class="scroll-img" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_2x_v3._SY608_CB573698005_.jpg" alt="">
-      <img class="scroll-img" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_SmartWatch_2X._SY608_CB639922111_.jpg" alt="">
-      <img class="scroll-img" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_2x_v6._SY608_CB573698005_.jpg" alt="">
-      <img class="scroll-img" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_2x_laptop._SY232_CB558654384_.jpg" alt="">
-      <img class="scroll-img" src="https://m.media-amazon.com/images/I/51Zo7mGSCuL._AC_SY400_.jpg" alt="">
+      <img class="scroll-img" src="https://m.media-amazon.com/images/I/61s3oyEy-0L._AC_SY400_.jpg" alt="">
+      <img class="scroll-img" src="https://m.media-amazon.com/images/I/61UFMf2FffL._AC_SY400_.jpg" alt="">
+      <img class="scroll-img" src="https://m.media-amazon.com/images/I/814WEkpf3-L._AC_SY400_.jpg" alt="">
+      <img class="scroll-img" src="https://m.media-amazon.com/images/I/810H7ed9agL._AC_SY400_.jpg" alt="">
+      <img class="scroll-img" src="https://m.media-amazon.com/images/I/81tiCD9VomL._AC_SY400_.jpg" alt="">
     </div>
   </div>
-  
+      <div class="d-grid gap-2 p-1" id="scrool-button">
+            <button id="back-to-top" @click="scrollToTop" class="btn btn-info" type="button">Back to Top</button>
+      </div>
   <!-- //footer -->
   <footer class="footer">
     <div class="container">
@@ -477,43 +480,116 @@
   <footer class="footer bg-dark text-white">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <h5>Amazon Music</h5>
-          <p>Stream millions of songs</p>
+        <div class="col-md-2 col-sm-6">
+          <h5 class="fs-6">Amazon Music</h5>
+          <p class="text-wrap fs-6 lh-1" style="width: 7rem;">Stream millions of songs</p>
         </div>
-        <div class="col-md-3 col-sm-6">
-          <h5>Amazon Ads</h5>
-          <p>Reach customers wherever they spend their time</p>
+        <div class="col-md-2 col-sm-6">
+          <h5 class="fs-6">Amazon Ads</h5>
+          <p class="text-wrap fs-6 lh-1" style="width: 9rem;">Reach customers wherever they spend their time</p>
         </div>
-        <div class="col-md-3 col-sm-6">
-          <h5>6pm</h5>
-          <p>Score deals on fashion brands</p>
+        <div class="col-md-2 col-sm-6">
+          <h5 class="fs-6">6pm</h5>
+          <p class="text-wrap fs-6 lh-1" style="width: 6rem;">Score deals on fashion brands</p>
         </div>
-        <div class="col-md-3 col-sm-6">
-          <h5>AbeBooks</h5>
-          <p>Books, art & collectibles</p>
+        <div class="col-md-2 col-sm-6">
+          <h5 class="fs-6">AbeBooks</h5>
+          <p class="text-wrap fs-6 lh-1" style="width: 6rem;">Books, art & collectibles</p>
         </div>
+         <div class="col-md-2 col-sm-6">
+          <h5 class="fs-6">ACX</h5>
+          <p class="text-wrap fs-6 lh-1" style="width: 6rem;">Audiobook Publishing Made Easy</p>
+        </div>
+         <div class="col-md-2 col-sm-6">
+          <h5 class="fs-6">Sell on Amazon</h5>
+          <p class="text-wrap fs-6 lh-1" style="width: 8rem;">Start a Selling Account</p>
+        </div>
+        
         <!-- Add more columns as needed -->
       </div>
       <div class="row mt-3">
-        <div class="col-md-3 col-sm-6">
-          <h5>AmazonGlobal</h5>
-          <p>Ship Orders Internationally</p>
+        <div class="col-md-2 col-sm-6">
+          <h5 class="fs-6">AmazonGlobal</h5>
+          <p class="text-wrap fs-6 lh-1" style="width: 8rem;">Ship Orders Internationally</p>
         </div>
-        <div class="col-md-3 col-sm-6">
-          <h5>Home Services</h5>
-          <p>Experienced Pros Happiness Guarantee</p>
+        <div class="col-md-2 col-sm-6">
+          <h5 class="fs-6">Home Services</h5>
+          <p class="text-wrap fs-6 lh-1" style="width: 8rem;">Experienced Pros Happiness Guarantee</p>
         </div>
-        <div class="col-md-3 col-sm-6">
-          <h5>Amazon Web Services</h5>
-          <p>Scalable Cloud Computing Services</p>
+        <div class="col-md-2 col-sm-6">
+          <h5 class="fs-6">Amazon Web Services</h5>
+          <p class="text-wrap fs-6 lh-1" style="width: 8rem;">Scalable Cloud Computing Services</p>
         </div>
-        <div class="col-md-3 col-sm-6">
-          <h5>Audible</h5>
-          <p>Listen to Books & Original Audio Performances</p>
+        <div class="col-md-2 col-sm-6">
+          <h5 class="fs-6">Audible</h5>
+          <p class="text-wrap fs-6 lh-1" style="width: 8rem;">Listen to Books & Original Audio Performances</p>
+        </div>
+         <div class="col-md-2 col-sm-6">
+          <h5 class="fs-6">Box Office Mojo</h5>
+          <p class="text-wrap fs-6 lh-1" style="width: 8rem;"> Find Movie Box Office Data</p>
+        </div>
+        <div class="col-md-2 col-sm-6">
+          <h5 class="fs-6">Goodreads</h5>
+          <p class="text-wrap fs-6 lh-1" style="width: 8rem;">Book reviews & recommendations</p>
         </div>
         <!-- Add more columns as needed -->
       </div>
+      
+      <hr>
+       <div class="row mt-3">
+        <div class="col-md-2 col-sm-6">
+          <h5 class="fs-6">IMDbPro</h5>
+          <p class="text-wrap fs-6 lh-1" style="width: 8rem;">Get Info Entertainment Professionals Need</p>
+        </div>
+        <div class="col-md-2 col-sm-6">
+          <h5 class="fs-6">Kindle Direct</h5>
+          <p class="text-wrap fs-6 lh-1" style="width: 8rem;">Publishing Indie Digital & Print Publishing Made Easy</p>
+        </div>
+        <div class="col-md-2 col-sm-6">
+          <h5 class="fs-6">Prime Video</h5>
+          <p class="text-wrap fs-6 lh-1" style="width: 8rem;">Direct Video Distribution Made Easy</p>
+        </div>
+        <div class="col-md-2 col-sm-6">
+          <h5 class="fs-6">Shopbop</h5>
+          <p class="text-wrap fs-6 lh-1" style="width: 8rem;">Designer Fashion Brands</p>
+        </div>
+         <div class="col-md-2 col-sm-6">
+          <h5 class="fs-6">Woot!</h5>
+          <p class="text-wrap fs-6 lh-1" style="width: 8rem;">Deals and Shenanigans</p>
+        </div>
+        <div class="col-md-2 col-sm-6">
+          <h5 class="fs-6">Zappos</h5>
+          <p class="text-wrap fs-6 lh-1" style="width: 8rem;">Shoes & Clothing</p>
+        </div>
+        <!-- Add more columns as needed -->
+      </div>
+      
+      <hr>
+       <div class="row mt-3">
+         <div class="col-md-2 col-sm-6">
+          <h5></h5>
+          <p class="text-wrap fs-6 lh-1" style="width: 8rem;"></p>
+        </div>
+        <div class="col-md-2 col-sm-6">
+          <h5 class="fs-6">eero WiFi</h5>
+          <p class="text-wrap fs-6 lh-1" style="width: 8rem;">Stream 4K Video in Every Room</p>
+        </div>
+        <div class="col-md-2 col-sm-6">
+          <h5 class="fs-6">Blink</h5>
+          <p class="text-wrap fs-6 lh-1" style="width: 8rem;">Smart Security for Every Home</p>
+        </div>
+        <div class="col-md-2 col-sm-6">
+          <h5 class="fs-6">Neighbors App</h5>
+          <p class="text-wrap fs-6 lh-1" style="width: 8rem;">Real-Time Crime & Safety Alerts</p>
+        </div>
+        <div class="col-md-2 col-sm-6">
+          <h5 class="fs-6">Amazon Subscription </h5>
+          <p class="text-wrap fs-6 lh-1" style="width: 8rem;">Boxes Top subscription boxes – right to your doo</p>
+        </div>
+        
+        <!-- Add more columns as needed -->
+      </div>
+      
       <hr>
       <div class="row">
         <div class="col-12 text-center">
@@ -541,7 +617,12 @@ export default {
     };
   },
   methods: {
-    toggleSidebar() {
+     scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    toggleSidebar() 
       this.isSidebarOpen = !this.isSidebarOpen;
     }
   }
@@ -555,7 +636,7 @@ export default {
 }
 #container-f{
 position: absolute;
-bottom: -70px;
+bottom: -100px;
 z-index: 1;
 }
 .navbar-custom {
@@ -647,7 +728,7 @@ body {
 
 .scroll-content {
   display: inline-flex;
-  animation: scroll 20s linear infinite;
+  animation: scroll 30s linear infinite;
 }
 
 .scroll-img {

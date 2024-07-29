@@ -6,8 +6,13 @@ import formCheck from "../components/formCheck.vue";
 import productComponent from "../components/productComponent.vue";
 import landingPage from "../components/Amazon/landingPage.vue";
 import carousel from "../components/Amazon/imageCarousel.vue";
-
+import commerse from "../components/E-commerse/landingPage.vue";
 const routes = [
+    //E-commerse site route
+    {path: "/commerse", component: commerse},
+    // {path: "/computed", component: computed},
+    // {path: "/dashboard", component: dashBoard},
+    // {path: "/product", component: productComponent},
         // Routes names, navigation guards, lifecycle use cases
     {path: "/amazon", component: landingPage},
     {path: "/carousel", component: carousel},

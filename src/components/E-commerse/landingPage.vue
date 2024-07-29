@@ -10,10 +10,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="/commerse">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Products</a>
+              <a class="nav-link" @click="scrollToTop" href="#">Products</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
@@ -38,19 +38,19 @@
       </div>
     </div>
 
-    <!-- Products -->
-   
-     <div class="container mt-2">
+     <!-- Products -->
+    <div class="container mt-2">
       <h2 class="text-center">Our Products</h2>
       <div class="row">
         <div class="col-md-4 mb-5" v-for="product in products" :key="product.id">
-          <div class="card mb-4  shadow-sm product-card">
+          <div class="card mb-4 shadow-sm product-card">
             <img :src="product.image" class="card-img-top product-image" alt="Product Image">
             <div class="card-body d-flex flex-column">
               <h5 class="card-title">{{ product.name }}</h5>
               <p class="card-text">{{ product.description }}</p>
               <div class="d-flex justify-content-between align-items-center mt-auto">
                 <span class="text-muted">{{ product.price }}</span>
+                <router-link :to="{ name: 'ProductDetails', params: { id: product.id } }" class="btn btn-sm btn-outline-secondary">View Details</router-link>
                 <button @click="addToCart(product)" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
               </div>
             </div>
@@ -89,8 +89,14 @@ export default {
   methods: {
     addToCart(product) {
       alert(`Added ${product.name} to cart.`);
-    }
+    },
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
   }
+}
 };
 </script>
 

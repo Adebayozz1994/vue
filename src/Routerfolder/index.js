@@ -7,9 +7,11 @@ import productComponent from "../components/productComponent.vue";
 import landingPage from "../components/Amazon/landingPage.vue";
 import carousel from "../components/Amazon/imageCarousel.vue";
 import commerse from "../components/E-commerse/landingPage.vue";
+import ProductDetails from "../components/E-commerse/productDetails.vue";
 const routes = [
     //E-commerse site route
     {path: "/commerse", component: commerse},
+    { path: '/product/:id', name: 'ProductDetails', component: ProductDetails, props: true },
     // {path: "/computed", component: computed},
     // {path: "/dashboard", component: dashBoard},
     // {path: "/product", component: productComponent},

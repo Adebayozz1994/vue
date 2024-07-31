@@ -8,9 +8,15 @@ import landingPage from "../components/Amazon/landingPage.vue";
 import carousel from "../components/Amazon/imageCarousel.vue";
 import commerse from "../components/E-commerse/landingPage.vue";
 import ProductDetails from "../components/E-commerse/productDetails.vue";
+import animation from "../components/E-commerse/aniMation.vue";
+import image from "../components/E-commerse/imAge.vue";
+
 const routes = [
     //E-commerse site route
     {path: "/commerse", component: commerse},
+    {path: "/animation", component: animation},
+    {path: "/image", component: image},
+
     { path: '/product/:id', name: 'ProductDetails', component: ProductDetails, props: true },
     // {path: "/computed", component: computed},
     // {path: "/dashboard", component: dashBoard},

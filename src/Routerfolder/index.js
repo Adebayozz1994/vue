@@ -11,6 +11,7 @@ import ProductDetails from "../components/E-commerse/productDetails.vue";
 import animation from "../components/E-commerse/aniMation.vue";
 import image from "../components/E-commerse/imAge.vue";
 import carousell from "../components/E-commerse/carouSel.vue";
+import threed from "../components/E-commerse/threeD.vue";
 
 const routes = [
     //E-commerse site route
@@ -18,6 +19,8 @@ const routes = [
     {path: "/animation", component: animation},
     {path: "/image", component: image},
     {path: "/carousel", component: carousell},
+    {path: "/threed", component: threed},
+
 
 
     { path: '/product/:id', name: 'ProductDetails', component: ProductDetails, props: true },

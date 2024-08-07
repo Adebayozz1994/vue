@@ -58,37 +58,77 @@
     </nav>
 
     <!-- Side Navigation Bar -->
-    <div id="sidebar" :class="{ open: isSidebarOpen }">
-      <button type="button" class="close" aria-label="Close" @click="toggleSidebar">
-        <span aria-hidden="true">&times;</span>
-      </button>
-      <div class="sidebar-heading bg-light pt-3"><h6 class="text-bold">Digital content & devices</h6></div>
-      <div class="list-group list-group-flush">
-        <a href="#" class="list-group-item list-group-item-action bg-light">Amazon music</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Kindle E-readers & Books</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Amazon Appstore</a>
-        <hr class="bg-light">
-        <h5 class="text-bold text-dark bg-light">Shop by Department</h5>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Electronics</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Computers</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Smart Home</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Arts & Crafts</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">See all</a>
-        <hr class="bg-light">
-        <h5 class="text-bold text-dark bg-light">Programs and Features</h5>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Gift Cards</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Shop By Interest</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Amazon Live</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">International Shopping</a>
-        <hr class="bg-light">
-        <h5 class="text-bold text-dark bg-light">Help and Settings</h5>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Your Account</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">English</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">United States</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Customer Service</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Sign In</a>
+     <div id="sidebar" :class="{ open: isSidebarOpen }">
+    <button type="button" class="close" aria-label="Close" @click="toggleSidebar">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <div class="list-group list-group-flush">
+      <div class="bg-dark p-2">
+        <h3 class="text-light"><a class="fas fa-user bg-light p-1 mr-2 rounded-circle" href="" style="color: black;"></a>Hello, sign in</h3>
       </div>
+      <div class="sidebar-heading bg-light pt-3">
+        <h6 class="text-bold">Digital content & devices</h6>
+      </div>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Amazon music</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Kindle E-readers & Books</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Amazon Appstore</a>
+      <hr class="bg-light">
+      <h5 class="text-bold text-dark bg-light">Shop by Department</h5>
+      <a href="#" class="list-group-item list-group-item-action bg-light" @click="toggleElectronicsSidebar">Electronics</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Computers</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Smart Home</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Arts & Crafts</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">See all</a>
+      <hr class="bg-light">
+      <h5 class="text-bold text-dark bg-light">Programs and Features</h5>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Gift Cards</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Shop By Interest</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Amazon Live</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">International Shopping</a>
+      <hr class="bg-light">
+      <h5 class="text-bold text-dark bg-light">Help and Settings</h5>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Your Account</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">English</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">United States</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Customer Service</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Sign In</a>
     </div>
+  </div>
+
+  <!-- Electronics Sub Side Navigation Bar -->
+  <div id="electronics-sidebar" :class="{ open: isElectronicsSidebarOpen }">
+    <button type="button" class="close" aria-label="Close" @click="toggleElectronicsSidebar">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <div class="list-group list-group-flush p-3">
+      <div class="bg-dark p-1">
+        <h3 class="text-light"><a class="fas fa-user bg-light p-1 mr-2 rounded-circle" href="" style="color: black;"></a>Hello, sign in</h3>
+      </div>
+      <div class="m-2">
+        <h5 class=""><a class="fas fa-arrow-left  p-1 mr-2 " href="" style="color:black;" @click.prevent="goBackToMainSidebar"><h5></h5></a>Menu</h5>
+      </div>
+
+      <h5 class="text-bold text-dark bg-light p-3">Electronics</h5>
+       <a href="#" class="list-group-item list-group-item-action bg-light">Accessories & Supplies</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Camera & Photo</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Car & Vehicle Electronics</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Cell Phones & Accessories</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Computers & Accessories</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">GPS & Navigation</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Headphones</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Home Audio</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Office Electronics</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Portable Audio & Video</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Security & Surveillance</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Service Plans</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Television & Video</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Video Game Consoles & Accessories</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Video Projectors</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">Wearable Technology</a>
+      <a href="#" class="list-group-item list-group-item-action bg-light">eBook Readers & Accessories</a>
+    </div>
+  </div>
+  
 
     <!-- Page Content -->
     <div id="page-content-wrapper">
@@ -613,7 +653,8 @@ export default {
   name: 'NavBar',
   data() {
     return {
-      isSidebarOpen: false
+        isSidebarOpen: false,
+      isElectronicsSidebarOpen: false
     };
   },
   methods: {
@@ -625,6 +666,12 @@ export default {
   },
     toggleSidebar() {
       this.isSidebarOpen = !this.isSidebarOpen;
+    },
+      toggleElectronicsSidebar() {
+        this.isElectronicsSidebarOpen = !this.isElectronicsSidebarOpen;
+      },
+        goBackToMainSidebar() {
+      this.isElectronicsSidebarOpen = false;
     }
   }
 };
@@ -632,7 +679,39 @@ export default {
 
 
 <style scoped>
+.m-2 {
+  margin: 2rem;
+}
 
+.text-light {
+  color: white;
+}
+
+.bg-dark {
+  background-color: #343a40;
+}
+
+.bg-light {
+  background-color: #f8f9fa;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.list-group-item-action {
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.fas {
+  font-size: 1.25rem;
+}
 .bg{
   background-color:azure
 }
@@ -644,6 +723,7 @@ z-index: 1;
 .navbar-custom {
   background-color: #0c0c0c;
 }
+
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav .nav-link {
   color: #ffffff;
@@ -654,16 +734,49 @@ z-index: 1;
 .navbar-custom .navbar-collapse {
   justify-content: flex-end;
 }
+
+#electronics-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 350px;
+  height: 100%;
+  background-color: #f8f9fa;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition: 0.5s;
+  transform: translatex(-100%);
+  z-index: 1200;
+  padding: 10px;
+}
+
+#sidebar.open, #electronics-sidebar.open {
+  transform: translatex(0);
+}
+
+#electronics-sidebar {
+  left: 0px;
+  z-index: 1100;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 36px;
+}
+
 #sidebar {
   background-color: #F8F9FA;
-  width: 250px;
-  height: 75vh;
+  width: 350px;
+  height: 100vh;
   position: fixed;
-  top: 112px; 
-  left: -250px; 
+  top: 0px; 
+  left: -350px; 
   overflow-y: auto;
   transition: left 0.5s ease; 
-  z-index: 1000; 
+  z-index: 1100; 
+  padding: 25px;
 }
 #sidebar.open {
   left: 0;
@@ -768,16 +881,29 @@ display: none;
     width: 50vw; 
     height: 200px;
   }
-  #sidebar {
+#sidebar {
   background-color: #F8F9FA;
-  width: 250px;
-  height: 48vh;
+  width: 280px;
+  height: 100vh;
   position: fixed;
-  top: 350px; 
-  left: -250px; 
+  top: 0px; 
+  left: -350px; 
   overflow-y: auto;
   transition: left 0.5s ease; 
-  z-index: 1000; 
+  z-index: 1100; 
+  padding: 25px;
+}
+#electronics-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 280px;
+  height: 100%;
+  background-color: #f8f9fa;
+  overflow-x: hidden;
+  transition: 0.5s;
+  transform: translatex(-100%);
+  z-index: 1200;
 }
 .carousel-inner img {
   width: 100%; 

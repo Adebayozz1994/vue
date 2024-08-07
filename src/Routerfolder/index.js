@@ -12,6 +12,7 @@ import animation from "../components/E-commerse/aniMation.vue";
 import image from "../components/E-commerse/imAge.vue";
 import carousell from "../components/E-commerse/carouSel.vue";
 import threed from "../components/E-commerse/threeD.vue";
+import accessories from "../components/Amazon/acceSsories.vue";
 
 const routes = [
     //E-commerse site route
@@ -30,6 +31,8 @@ const routes = [
         // Routes names, navigation guards, lifecycle use cases
     {path: "/amazon", component: landingPage},
     {path: "/carousel", component: carousel},
+    {path: "/accessories", component: accessories},
+
     
     {path: "/", component: formCheck},
     // {path: "/home", component: HelloWorld},

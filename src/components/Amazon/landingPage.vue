@@ -109,7 +109,7 @@
       </div>
 
       <h5 class="text-bold text-dark bg-light p-3">Electronics</h5>
-       <a href="#" class="list-group-item list-group-item-action bg-light">Accessories & Supplies</a>
+       <a href="/acceSsories" class="list-group-item list-group-item-action bg-light">Accessories & Supplies</a>
       <a href="#" class="list-group-item list-group-item-action bg-light">Camera & Photo</a>
       <a href="#" class="list-group-item list-group-item-action bg-light">Car & Vehicle Electronics</a>
       <a href="#" class="list-group-item list-group-item-action bg-light">Cell Phones & Accessories</a>

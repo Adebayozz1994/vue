@@ -1,7 +1,13 @@
 <template>
-    <h1>Product Component</h1>
+    <h1>Display Product</h1>
     <h2>Product ID: {{route.params.id}}</h2>
+    <p>Name : {{route.params.name}}</p>
     <!-- {{$route.params.id}} - Option API -->
+
+    <div>
+        <h1>markets</h1>
+        <a href="">shop here</a>
+    </div>
 
     <input type="checkbox" v-model="terms">
     <label for="terms">Accept Terms and Conditions</label>

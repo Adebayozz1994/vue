@@ -13,6 +13,9 @@ import image from "../components/E-commerse/imAge.vue";
 import carousell from "../components/E-commerse/carouSel.vue";
 import threed from "../components/E-commerse/threeD.vue";
 import accessories from "../components/Amazon/acceSsories.vue";
+import productsComponent from "../components/productsComponent.vue";
+import pageNotfound from "../components/pageNotfound.vue";
+import register from "../components/reGister.vue";
 
 const routes = [
     //E-commerse site route
@@ -24,7 +27,7 @@ const routes = [
 
 
 
-    { path: '/product/:id', name: 'ProductDetails', component: ProductDetails, props: true },
+    // { path: '/product/:id', name: 'ProductDetails', component: ProductDetails, props: true },
     // {path: "/computed", component: computed},
     // {path: "/dashboard", component: dashBoard},
     // {path: "/product", component: productComponent},
@@ -38,14 +41,21 @@ const routes = [
     // {path: "/home", component: HelloWorld},
     {path: "/computed", component: computed},
     {path: "/dashboard", component: dashBoard},
-    {path: "/products/:id", component: productComponent}, //parameterized routes
+    {path: "/register", component: register},
+
+    {path: "/products", component: productsComponent, name: "products"},
+    {path: "/products/:id/:name", component: productComponent, name: 'Products'}, //parameterized routes
     // {path: "/Home", redirect: "/home"},
-    {path: "/:catchall(.*)", component: HelloWorld}, //wildcards or page not found
+    // {path: "/:catchall(.*)", component: HelloWorld}, //wildcards or page not found
+    {path: "/:pathMatch(.*)*", component: pageNotfound}, //wildcards or page not found
+
      //Nested routes
     {path: "/comp", children: [
             {path: "hello", component: HelloWorld},
             {path: "computed", component: computed}
     ]},
+
+
     
 ]
 

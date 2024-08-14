@@ -49,7 +49,7 @@
                     <img src="https://m.media-amazon.com/images/I/71lZNMujFAL._AC_UL480_FMwebp_QL65_.jpg" class="card-img-top" alt="Product 4">
                     <div class="card-body">
                         <h5 class="card-title">Datacolor Spyder Print - Advanced Data Analysis and Calibration</h5>
-                        <p class="card-text"> Tool for Optimal Print Results, Perfect for Photographers, Graphic Designers, and Printing Professionals...</p>
+                        <p class="card-text"> Tool for Optimal Print Results, Perfect for Photographers...</p>
                         <p class="card-text"><strong>$344.00</strong></p>
                         <p class="card-text delivery-date">Delivery Mon, Aug 19<br>Ships to Nigeria</p>
                         <a href="#" class="btn btn-warning">Add to cart</a>

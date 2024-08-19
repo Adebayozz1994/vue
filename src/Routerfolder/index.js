@@ -16,6 +16,7 @@ import accessories from "../components/Amazon/acceSsories.vue";
 import productsComponent from "../components/productsComponent.vue";
 import pageNotfound from "../components/pageNotfound.vue";
 import register from "../components/reGister.vue";
+import store from "../components/TestStore.vue";
 
 const routes = [
     //E-commerse site route
@@ -42,6 +43,8 @@ const routes = [
     {path: "/computed", component: computed},
     {path: "/dashboard", component: dashBoard},
     {path: "/register", component: register},
+    {path: "/store", component: store},
+
 
     {path: "/products", component: productsComponent, name: "products"},
     {path: "/products/:id/:name", component: productComponent, name: 'Products'}, //parameterized routes

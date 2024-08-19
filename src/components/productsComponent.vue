@@ -13,7 +13,20 @@
 </template>
 
 <script setup>
+import {computed} from 'vue';
 
+  const products = [
+        {id:1, name:'product1', price:100,available:true},
+        {id:2, name:'product2', price:200, available:false},
+        {id:3, name:'product3', price:300, available:true},
+        {id:4, name:'product4', price:400, available:true},
+        {id:5, name:'product5', price:500, available:false},
+    ];
+
+    const availableItems = computed(()=>{
+      return products.filter((product)=> !product.available)
+    })
+    console.log(availableItems.value)
 </script>
 
 <style>

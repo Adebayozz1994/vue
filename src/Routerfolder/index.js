@@ -7,7 +7,7 @@ import productComponent from "../components/productComponent.vue";
 import landingPage from "../components/Amazon/landingPage.vue";
 import carousel from "../components/Amazon/imageCarousel.vue";
 import commerse from "../components/E-commerse/landingPage.vue";
-import ProductDetails from "../components/E-commerse/productDetails.vue";
+// import ProductDetails from "../components/E-commerse/productDetails.vue";
 import animation from "../components/E-commerse/aniMation.vue";
 import image from "../components/E-commerse/imAge.vue";
 import carousell from "../components/E-commerse/carouSel.vue";
@@ -15,8 +15,10 @@ import threed from "../components/E-commerse/threeD.vue";
 import accessories from "../components/Amazon/acceSsories.vue";
 import productsComponent from "../components/productsComponent.vue";
 import pageNotfound from "../components/pageNotfound.vue";
-import register from "../components/reGister.vue";
+import register from "../components/AdminAuth.vue";
 import store from "../components/TestStore.vue";
+import dashboard from "../components/AdminDashboard.vue";
+
 
 const routes = [
     //E-commerse site route
@@ -42,7 +44,11 @@ const routes = [
     // {path: "/home", component: HelloWorld},
     {path: "/computed", component: computed},
     {path: "/dashboard", component: dashBoard},
-    {path: "/register", component: register},
+    {path: "/admin/register", component: register},
+    {path: "/admin/login", component: register},
+    {path: "/admin/dashboard", component: dashboard},
+
+
     {path: "/store", component: store},
 
 

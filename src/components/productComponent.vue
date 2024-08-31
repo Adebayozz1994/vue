@@ -25,13 +25,13 @@
 </template>
 
 <script setup>
-        import { onBeforeMount, onBeforeUnmount, onMounted, onUnmounted, onUpdated, ref } from 'vue'
-        import {onBeforeRouteLeave, useRoute} from 'vue-router'
-        const route = useRoute()
-        const terms = ref(false)
-        const showTerms = ref(false)
-        const userLeave = ref(false)
-        console.log(route.params.id)
+        // import { onBeforeMount, onBeforeUnmount, onMounted, onUnmounted, onUpdated, ref } from 'vue'
+        // import {onBeforeRouteLeave, useRoute} from 'vue-router'
+        // const route = useRoute()
+        // const terms = ref(false)
+        // const showTerms = ref(false)
+        // const userLeave = ref(false)
+        // console.log(route.params.id)
 
         // onBeforeMount(() =>{  //lifecycle hook
         //     axios.get('https://localhost:8000/api/getProducts',{id: route.para}).then((result) =>{

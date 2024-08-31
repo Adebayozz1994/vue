@@ -17,7 +17,7 @@
 <script setup>
 import {useMyStore} from '../stores/Mystore';
 import { onMounted, ref } from 'vue';
-import {computed} from 'vue';
+// import {computed} from 'vue';
 
 //
 
@@ -37,6 +37,21 @@ onMounted(()=>{
   store.getProducts();
   console.log(store.allProducts)
 })
+
+import {computed} from 'vue';
+
+  const productss = [
+        {id:1, name:'product1', price:100,available:true},
+        {id:2, name:'product2', price:200, available:false},
+        {id:3, name:'product3', price:300, available:true},
+        {id:4, name:'product4', price:400, available:true},
+        {id:5, name:'product5', price:500, available:false},
+    ];
+
+    const availableItems = computed(()=>{
+      return productss.filter((product)=> !product.available)
+    })
+    console.log(availableItems.value)
 
 </script>
 

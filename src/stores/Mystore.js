@@ -1,4 +1,4 @@
-import { axios } from 'axios';
+import axios from 'axios';
 import {defineStore} from 'pinia';
 import { ref } from 'vue';
 
@@ -30,9 +30,9 @@ export const useMyStore = defineStore('store', () => {    //composition api
         user.value = 'sola';
     
     }
-
+        //when using axios for api calls
     const getProducts = () =>{
-        axios.get('http:localhost:8000/api/getProcts').then(res=>{
+        axios.get('http:localhost:8000/api/getProducts').then(res=>{
             allProducts.value = res.data.products;
         })
     }
